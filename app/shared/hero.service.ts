@@ -14,14 +14,14 @@ export class HeroService {
 
   getHeroes() {
     return this.http.get(this.heroesUrl)
-               .toPromise()
-               .then(response => response.json().data as Hero[])
-               .catch(this.handleError);
+      .toPromise()
+      .then(response => response.json().data as Hero[])
+      .catch(this.handleError);
   }
 
   getHero(id: number) {
     return this.getHeroes()
-               .then(heroes => heroes.find(hero => hero.id === id));
+      .then(heroes => heroes.find(hero => hero.id === id));
   }
 
   save(hero: Hero): Promise<Hero>  {
@@ -38,9 +38,9 @@ export class HeroService {
     let url = `${this.heroesUrl}/${hero.id}`;
 
     return this.http
-               .delete(url, {headers: headers})
-               .toPromise()
-               .catch(this.handleError);
+      .delete(url, {headers: headers})
+      .toPromise()
+      .catch(this.handleError);
   }
 
   // Add new Hero
@@ -49,10 +49,10 @@ export class HeroService {
       'Content-Type': 'application/json'});
 
     return this.http
-               .post(this.heroesUrl, JSON.stringify(hero), {headers: headers})
-               .toPromise()
-               .then(res => res.json().data)
-               .catch(this.handleError);
+      .post(this.heroesUrl, JSON.stringify(hero), {headers: headers})
+      .toPromise()
+      .then(res => res.json().data)
+      .catch(this.handleError);
   }
 
   // Update existing Hero
@@ -63,10 +63,10 @@ export class HeroService {
     let url = `${this.heroesUrl}/${hero.id}`;
 
     return this.http
-               .put(url, JSON.stringify(hero), {headers: headers})
-               .toPromise()
-               .then(() => hero)
-               .catch(this.handleError);
+      .put(url, JSON.stringify(hero), {headers: headers})
+      .toPromise()
+      .then(() => hero)
+      .catch(this.handleError);
   }
 
   private handleError(error: any) {

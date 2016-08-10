@@ -6,7 +6,7 @@ import { FormsModule }    from '@angular/forms';
 import { HttpModule, XHRBackend } from '@angular/http';
 
 import { InMemoryBackendService, SEED_DATA } from 'angular2-in-memory-web-api';
-import { InMemoryDataService }               from './in-memory-data.service';
+import { InMemoryDataService }               from './shared/in-memory-data.service';
 
 import { AppComponent }   from './app.component';
 import { routing }        from './app.routing';
@@ -16,7 +16,7 @@ import { DashboardComponent }   from './dashboard/dashboard.component';
 import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
 import { HeroSearchComponent }  from './hero-search/hero-search.component';
 
-import { HeroService }  from './hero.service';
+import { HeroService }  from './shared/hero.service';
 
 @NgModule({
   imports: [

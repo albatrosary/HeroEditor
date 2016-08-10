@@ -2,8 +2,8 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 import { ActivatedRoute, Params } from '@angular/router';
 
-import { Hero }        from '../hero';
-import { HeroService } from '../hero.service';
+import { Hero }        from '../shared/hero';
+import { HeroService } from '../shared/hero.service';
 
 @Component({
   selector: 'my-hero-detail',
@@ -37,12 +37,12 @@ export class HeroDetailComponent implements OnInit {
 
   save() {
     this.heroService
-        .save(this.hero)
-        .then(hero => {
-          this.hero = hero; // saved hero, w/ id if new
-          this.goBack(hero);
-        })
-        .catch(error => this.error = error); // TODO: Display error message
+      .save(this.hero)
+      .then(hero => {
+        this.hero = hero; // saved hero, w/ id if new
+        this.goBack(hero);
+      })
+      .catch(error => this.error = error); // TODO: Display error message
   }
   goBack(savedHero: Hero = null) {
     this.close.emit(savedHero);

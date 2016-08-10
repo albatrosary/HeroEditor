@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router }            from '@angular/router';
 
-import { Hero }                from '../hero';
-import { HeroService }         from '../hero.service';
+import { Hero }                from '../shared/hero';
+import { HeroService }         from '../shared/hero.service';
 
 @Component({
   selector: 'my-heroes',
@@ -21,9 +21,9 @@ export class HeroesComponent implements OnInit {
 
   getHeroes() {
     this.heroService
-        .getHeroes()
-        .then(heroes => this.heroes = heroes)
-        .catch(error => this.error = error);
+      .getHeroes()
+      .then(heroes => this.heroes = heroes)
+      .catch(error => this.error = error);
   }
 
   addHero() {
@@ -39,12 +39,12 @@ export class HeroesComponent implements OnInit {
   deleteHero(hero: Hero, event: any) {
     event.stopPropagation();
     this.heroService
-        .delete(hero)
-        .then(res => {
-          this.heroes = this.heroes.filter(h => h !== hero);
-          if (this.selectedHero === hero) { this.selectedHero = null; }
-        })
-        .catch(error => this.error = error);
+      .delete(hero)
+      .then(res => {
+        this.heroes = this.heroes.filter(h => h !== hero);
+        if (this.selectedHero === hero) { this.selectedHero = null; }
+      })
+      .catch(error => this.error = error);
   }
 
   ngOnInit() {
