@@ -6,7 +6,17 @@ import { HeroService } from '../shared/hero.service';
 
 @Component({
   selector: 'my-dashboard',
-  templateUrl: 'app/dashboard/dashboard.component.html',
+  template: `
+    <h3>Top Heroes</h3>
+    <div class="grid grid-pad">
+      <div *ngFor="let hero of heroes" (click)="gotoDetail(hero)" class="col-1-4">
+        <div class="module hero">
+          <h4>{{hero.name}}</h4>
+        </div>
+      </div>
+    </div>
+    <hero-search></hero-search>
+  `,
   styleUrls: ['app/dashboard/dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
