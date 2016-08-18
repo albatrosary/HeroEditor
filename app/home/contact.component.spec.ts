@@ -21,10 +21,9 @@ describe('ContactComponent', () => {
 
   it('component test', async(() => {
     let fixture = TestBed.createComponent(ContactComponent);
+    fixture.detectChanges();
     fixture.whenStable().then(() => {
-      console.log(fixture.componentRef);
       let inputBox = fixture.debugElement.query(By.css('input')).nativeElement;
-      console.log(inputBox.value);
       expect(inputBox.value).toEqual('Original Name');
     });
   }));
