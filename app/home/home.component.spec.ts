@@ -26,9 +26,9 @@ describe('HomeComponent', () => {
     // コンポーネントのコンパイル
     TestBed.compileComponents().then(() => {
       // コンポーネントインスタンスの作成 
-      var fixture = TestBed.createComponent(HomeComponent);
+      let fixture = TestBed.createComponent(HomeComponent);
       fixture.detectChanges();
-      var element = fixture.debugElement.query(By.css('h1')).nativeElement;
+      let element = fixture.debugElement.query(By.css('h1')).nativeElement;
       expect(element.innerText).toMatch(/My First Angular 2 App/i);
     });
   }));
