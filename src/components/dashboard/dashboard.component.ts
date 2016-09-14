@@ -17,7 +17,7 @@ import { HeroService } from '../shared/hero.service';
     </div>
     <hero-search></hero-search>
   `,
-  styleUrls: ['app/dashboard/dashboard.component.css']
+  styleUrls: ['components/dashboard/dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];

@@ -20,7 +20,7 @@ import { HeroService } from '../shared/hero.service';
     <button (click)="save()">Save</button>
   </div>
   `,
-  styleUrls: ['app/hero-detail/hero-detail.component.css']
+  styleUrls: ['components/hero-detail/hero-detail.component.css']
 })
 export class HeroDetailComponent implements OnInit {
   @Input() hero: Hero;
