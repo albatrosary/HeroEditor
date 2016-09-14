@@ -13,7 +13,7 @@ import './rxjs-extensions';
   </nav>
   <router-outlet></router-outlet>
   `,
-  styleUrls: ['components/app.component.css']
+  styleUrls: ['app.component.css']
 })
 export class AppComponent {
   title = 'Tour of Heroes';

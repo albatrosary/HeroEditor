@@ -20,7 +20,7 @@ import { Hero } from '../shared/hero';
     </div>
   </div>
   `,
-  styleUrls:  ['components/hero-search/hero-search.component.css'],
+  styleUrls:  ['hero-search.component.css'],
   providers: [HeroSearchService]
 })
 export class HeroSearchComponent implements OnInit {
