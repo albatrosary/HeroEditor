@@ -3,8 +3,7 @@ import { Router }            from '@angular/router';
 import { Observable }        from 'rxjs/Observable';
 import { Subject }           from 'rxjs/Subject';
 
-import 'rxjs/add/operator/switchMap';
-import 'rxjs/add/operator/catch';
+import '../rxjs-extensions';
 
 import { HeroSearchService } from './hero-search.service';
 import { Hero } from '../shared/hero';
