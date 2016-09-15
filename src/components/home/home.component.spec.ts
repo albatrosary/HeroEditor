@@ -1,3 +1,6 @@
+/// <reference path="../../../node_modules/@types/karma/index.d.ts" />
+/// <reference path="../../../node_modules/@types/jasmine/index.d.ts" />
+
 /* tslint:disable:no-unused-variable */
 import { HomeComponent } from './home.component';
 
