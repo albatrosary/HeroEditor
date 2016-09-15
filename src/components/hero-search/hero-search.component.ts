@@ -3,6 +3,9 @@ import { Router }            from '@angular/router';
 import { Observable }        from 'rxjs/Observable';
 import { Subject }           from 'rxjs/Subject';
 
+import 'rxjs/add/operator/switchMap';
+import 'rxjs/add/operator/catch';
+
 import { HeroSearchService } from './hero-search.service';
 import { Hero } from '../shared/hero';
 
@@ -20,7 +23,7 @@ import { Hero } from '../shared/hero';
     </div>
   </div>
   `,
-  styleUrls:  ['hero-search.component.css'],
+  styleUrls:  ['components/hero-search/hero-search.component.css'],
   providers: [HeroSearchService]
 })
 export class HeroSearchComponent implements OnInit {

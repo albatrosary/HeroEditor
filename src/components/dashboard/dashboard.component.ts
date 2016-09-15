@@ -17,12 +17,12 @@ import { HeroService } from '../shared/hero.service';
     </div>
     <hero-search></hero-search>
   `,
-  styleUrls: ['dashboard.component.css']
+  styleUrls: ['components/dashboard/dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
 
-  constructor(
+  constructor (
     private router: Router,
     private heroService: HeroService) {
   }

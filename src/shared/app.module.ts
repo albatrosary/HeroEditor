@@ -33,9 +33,7 @@ import { HeroService }  from '../components/shared/hero.service';
     HeroSearchComponent
   ],
   providers: [
-    HeroService,
-    { provide: XHRBackend, useClass: InMemoryBackendService }, // in-mem server
-    { provide: SEED_DATA, useClass: InMemoryDataService }     // in-mem server data
+    HeroService
   ],
   bootstrap: [ AppComponent ]
 })
