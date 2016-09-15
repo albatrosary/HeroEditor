@@ -1,4 +1,6 @@
 .idea
+.tmp
+bin
 typings/**
 node_modules
 jspm_packages
