@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "ngc": "ngc -p ./tsconfig.aot.json",
-    "minify": "uglifyjs bin/bootstrap.aot.bundle.js --screw-ie8 --compress --mangle --output bin/bootstrap.aot.bundle.min.js",
-    "build": "npm run ngc && npm run webpack && npm run minify",
+    "minify": "uglifyjs bin/bootstrap.bundle.js --screw-ie8 --compress --mangle --output bin/bootstrap.bundle.min.js",
+    "minify:aot": "uglifyjs bin/bootstrap.aot.bundle.js --screw-ie8 --compress --mangle --output bin/bootstrap.aot.bundle.min.js",
+    "build": "npm run ngc && npm run webpack && npm run minify && npm run minify:aot",
     "start": "concurrently \"node server/app.js\" \"npm run lite\"",
     "webpack": "webpack --config webpack.config.js",
     "tsc": "tsc",
