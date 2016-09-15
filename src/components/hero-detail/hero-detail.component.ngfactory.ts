@@ -15,17 +15,18 @@ import * as import7 from '@angular/core/src/linker/view_type';
 import * as import8 from '@angular/core/src/change_detection/change_detection';
 import * as import9 from '../shared/hero.service';
 import * as import10 from '@angular/router/src/router_state';
-import * as import11 from '@angular/core/src/metadata/view';
-import * as import12 from '@angular/core/src/linker/component_factory';
-import * as import13 from './hero-detail.component.css.shim';
-import * as import14 from '@angular/core/src/linker/template_ref';
-import * as import15 from '@angular/common/src/directives/ng_if';
-import * as import16 from '@angular/forms/src/directives/default_value_accessor';
-import * as import17 from '@angular/forms/src/directives/control_value_accessor';
-import * as import18 from '@angular/forms/src/directives/ng_model';
-import * as import19 from '@angular/forms/src/directives/ng_control';
-import * as import20 from '@angular/forms/src/directives/ng_control_status';
-import * as import21 from '@angular/core/src/linker/element_ref';
+import * as import11 from '@angular/platform-browser/src/browser/title';
+import * as import12 from '@angular/core/src/metadata/view';
+import * as import13 from '@angular/core/src/linker/component_factory';
+import * as import14 from './hero-detail.component.css.shim';
+import * as import15 from '@angular/core/src/linker/template_ref';
+import * as import16 from '@angular/common/src/directives/ng_if';
+import * as import17 from '@angular/forms/src/directives/default_value_accessor';
+import * as import18 from '@angular/forms/src/directives/control_value_accessor';
+import * as import19 from '@angular/forms/src/directives/ng_model';
+import * as import20 from '@angular/forms/src/directives/ng_control';
+import * as import21 from '@angular/forms/src/directives/ng_control_status';
+import * as import22 from '@angular/core/src/linker/element_ref';
 const nodeDebugInfos_HeroDetailComponent_Host0:import0.StaticNodeDebugInfo[] = [new import0.StaticNodeDebugInfo([import1.HeroDetailComponent],import1.HeroDetailComponent,{})];
 var renderType_HeroDetailComponent_Host:import2.RenderComponentType = (null as any);
 class _View_HeroDetailComponent_Host0 extends import3.DebugAppView<any> {
@@ -39,7 +40,7 @@ class _View_HeroDetailComponent_Host0 extends import3.DebugAppView<any> {
     this._el_0 = this.selectOrCreateHostElement('my-hero-detail',rootSelector,this.debug(0,0,0));
     this._appEl_0 = new import4.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_HeroDetailComponent0(this.viewUtils,this.injector(0),this._appEl_0);
-    this._HeroDetailComponent_0_4 = new import1.HeroDetailComponent(this.parentInjector.get(import9.HeroService),this.parentInjector.get(import10.ActivatedRoute));
+    this._HeroDetailComponent_0_4 = new import1.HeroDetailComponent(this.parentInjector.get(import9.HeroService),this.parentInjector.get(import10.ActivatedRoute),this.parentInjector.get(import11.Title));
     this._appEl_0.initComponent(this._HeroDetailComponent_0_4,[],compView_0);
     compView_0.create(this._HeroDetailComponent_0_4,this.projectableNodes,(null as any));
     this.init([].concat([this._el_0]),[this._el_0],[],[]);
@@ -56,16 +57,16 @@ class _View_HeroDetailComponent_Host0 extends import3.DebugAppView<any> {
   }
 }
 function viewFactory_HeroDetailComponent_Host0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import4.AppElement):import3.AppView<any> {
-  if ((renderType_HeroDetailComponent_Host === (null as any))) { (renderType_HeroDetailComponent_Host = viewUtils.createRenderComponentType('',0,import11.ViewEncapsulation.None,[],{})); }
+  if ((renderType_HeroDetailComponent_Host === (null as any))) { (renderType_HeroDetailComponent_Host = viewUtils.createRenderComponentType('',0,import12.ViewEncapsulation.None,[],{})); }
   return new _View_HeroDetailComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
-export const HeroDetailComponentNgFactory:import12.ComponentFactory<import1.HeroDetailComponent> = new import12.ComponentFactory<import1.HeroDetailComponent>('my-hero-detail',viewFactory_HeroDetailComponent_Host0,import1.HeroDetailComponent);
-const styles_HeroDetailComponent:any[] = [import13.styles];
+export const HeroDetailComponentNgFactory:import13.ComponentFactory<import1.HeroDetailComponent> = new import13.ComponentFactory<import1.HeroDetailComponent>('my-hero-detail',viewFactory_HeroDetailComponent_Host0,import1.HeroDetailComponent);
+const styles_HeroDetailComponent:any[] = [import14.styles];
 const nodeDebugInfos_HeroDetailComponent0:import0.StaticNodeDebugInfo[] = [
   new import0.StaticNodeDebugInfo([],(null as any),{}),
   new import0.StaticNodeDebugInfo([
-    import14.TemplateRef,
-    import15.NgIf
+    import15.TemplateRef,
+    import16.NgIf
   ]
   ,(null as any),{}),
   new import0.StaticNodeDebugInfo([],(null as any),{})
@@ -77,7 +78,7 @@ class _View_HeroDetailComponent0 extends import3.DebugAppView<import1.HeroDetail
   _anchor_1:any;
   /*private*/ _appEl_1:import4.AppElement;
   _TemplateRef_1_5:any;
-  _NgIf_1_6:import15.NgIf;
+  _NgIf_1_6:import16.NgIf;
   _text_2:any;
   /*private*/ _expr_0:any;
   constructor(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import4.AppElement) {
@@ -88,8 +89,8 @@ class _View_HeroDetailComponent0 extends import3.DebugAppView<import1.HeroDetail
     this._text_0 = this.renderer.createText(parentRenderNode,'\n    ',this.debug(0,0,0));
     this._anchor_1 = this.renderer.createTemplateAnchor(parentRenderNode,this.debug(1,1,4));
     this._appEl_1 = new import4.AppElement(1,(null as any),this,this._anchor_1);
-    this._TemplateRef_1_5 = new import14.TemplateRef_(this._appEl_1,viewFactory_HeroDetailComponent1);
-    this._NgIf_1_6 = new import15.NgIf(this._appEl_1.vcRef,this._TemplateRef_1_5);
+    this._TemplateRef_1_5 = new import15.TemplateRef_(this._appEl_1,viewFactory_HeroDetailComponent1);
+    this._NgIf_1_6 = new import16.NgIf(this._appEl_1.vcRef,this._TemplateRef_1_5);
     this._text_2 = this.renderer.createText(parentRenderNode,'\n  ',this.debug(2,11,8));
     this._expr_0 = import8.UNINITIALIZED;
     this.init([],[
@@ -101,8 +102,8 @@ class _View_HeroDetailComponent0 extends import3.DebugAppView<import1.HeroDetail
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import14.TemplateRef) && (1 === requestNodeIndex))) { return this._TemplateRef_1_5; }
-    if (((token === import15.NgIf) && (1 === requestNodeIndex))) { return this._NgIf_1_6; }
+    if (((token === import15.TemplateRef) && (1 === requestNodeIndex))) { return this._TemplateRef_1_5; }
+    if (((token === import16.NgIf) && (1 === requestNodeIndex))) { return this._NgIf_1_6; }
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
@@ -117,7 +118,7 @@ class _View_HeroDetailComponent0 extends import3.DebugAppView<import1.HeroDetail
   }
 }
 export function viewFactory_HeroDetailComponent0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import4.AppElement):import3.AppView<import1.HeroDetailComponent> {
-  if ((renderType_HeroDetailComponent === (null as any))) { (renderType_HeroDetailComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/HeroEditor/src/components/hero-detail/hero-detail.component.ts class HeroDetailComponent - inline template',0,import11.ViewEncapsulation.Emulated,styles_HeroDetailComponent,{})); }
+  if ((renderType_HeroDetailComponent === (null as any))) { (renderType_HeroDetailComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/HeroEditor/src/components/hero-detail/hero-detail.component.ts class HeroDetailComponent - inline template',0,import12.ViewEncapsulation.Emulated,styles_HeroDetailComponent,{})); }
   return new _View_HeroDetailComponent0(viewUtils,parentInjector,declarationEl);
 }
 const nodeDebugInfos_HeroDetailComponent1:import0.StaticNodeDebugInfo[] = [
@@ -138,11 +139,11 @@ const nodeDebugInfos_HeroDetailComponent1:import0.StaticNodeDebugInfo[] = [
   new import0.StaticNodeDebugInfo([],(null as any),{}),
   new import0.StaticNodeDebugInfo([],(null as any),{}),
   new import0.StaticNodeDebugInfo([
-    import16.DefaultValueAccessor,
-    import17.NG_VALUE_ACCESSOR,
-    import18.NgModel,
-    import19.NgControl,
-    import20.NgControlStatus
+    import17.DefaultValueAccessor,
+    import18.NG_VALUE_ACCESSOR,
+    import19.NgModel,
+    import20.NgControl,
+    import21.NgControlStatus
   ]
   ,(null as any),{}),
   new import0.StaticNodeDebugInfo([],(null as any),{}),
@@ -173,11 +174,11 @@ class _View_HeroDetailComponent1 extends import3.DebugAppView<any> {
   _text_14:any;
   _text_15:any;
   _el_16:any;
-  _DefaultValueAccessor_16_3:import16.DefaultValueAccessor;
+  _DefaultValueAccessor_16_3:import17.DefaultValueAccessor;
   _NG_VALUE_ACCESSOR_16_4:any[];
-  _NgModel_16_5:import18.NgModel;
+  _NgModel_16_5:import19.NgModel;
   _NgControl_16_6:any;
-  _NgControlStatus_16_7:import20.NgControlStatus;
+  _NgControlStatus_16_7:import21.NgControlStatus;
   _text_17:any;
   _text_18:any;
   _el_19:any;
@@ -217,11 +218,11 @@ class _View_HeroDetailComponent1 extends import3.DebugAppView<any> {
     this._text_15 = this.renderer.createText(this._el_11,'\n      ',this.debug(15,6,27));
     this._el_16 = this.renderer.createElement(this._el_11,'input',this.debug(16,7,6));
     this.renderer.setElementAttribute(this._el_16,'placeholder','name');
-    this._DefaultValueAccessor_16_3 = new import16.DefaultValueAccessor(this.renderer,new import21.ElementRef(this._el_16));
+    this._DefaultValueAccessor_16_3 = new import17.DefaultValueAccessor(this.renderer,new import22.ElementRef(this._el_16));
     this._NG_VALUE_ACCESSOR_16_4 = [this._DefaultValueAccessor_16_3];
-    this._NgModel_16_5 = new import18.NgModel((null as any),(null as any),(null as any),this._NG_VALUE_ACCESSOR_16_4);
+    this._NgModel_16_5 = new import19.NgModel((null as any),(null as any),(null as any),this._NG_VALUE_ACCESSOR_16_4);
     this._NgControl_16_6 = this._NgModel_16_5;
-    this._NgControlStatus_16_7 = new import20.NgControlStatus(this._NgControl_16_6);
+    this._NgControlStatus_16_7 = new import21.NgControlStatus(this._NgControl_16_6);
     this._text_17 = this.renderer.createText(this._el_11,'\n    ',this.debug(17,7,58));
     this._text_18 = this.renderer.createText(this._el_0,'\n    ',this.debug(18,8,10));
     this._el_19 = this.renderer.createElement(this._el_0,'button',this.debug(19,9,4));
@@ -283,11 +284,11 @@ class _View_HeroDetailComponent1 extends import3.DebugAppView<any> {
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import16.DefaultValueAccessor) && (16 === requestNodeIndex))) { return this._DefaultValueAccessor_16_3; }
-    if (((token === import17.NG_VALUE_ACCESSOR) && (16 === requestNodeIndex))) { return this._NG_VALUE_ACCESSOR_16_4; }
-    if (((token === import18.NgModel) && (16 === requestNodeIndex))) { return this._NgModel_16_5; }
-    if (((token === import19.NgControl) && (16 === requestNodeIndex))) { return this._NgControl_16_6; }
-    if (((token === import20.NgControlStatus) && (16 === requestNodeIndex))) { return this._NgControlStatus_16_7; }
+    if (((token === import17.DefaultValueAccessor) && (16 === requestNodeIndex))) { return this._DefaultValueAccessor_16_3; }
+    if (((token === import18.NG_VALUE_ACCESSOR) && (16 === requestNodeIndex))) { return this._NG_VALUE_ACCESSOR_16_4; }
+    if (((token === import19.NgModel) && (16 === requestNodeIndex))) { return this._NgModel_16_5; }
+    if (((token === import20.NgControl) && (16 === requestNodeIndex))) { return this._NgControl_16_6; }
+    if (((token === import21.NgControlStatus) && (16 === requestNodeIndex))) { return this._NgControlStatus_16_7; }
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {

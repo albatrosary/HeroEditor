@@ -5,6 +5,8 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { Hero }        from '../shared/hero';
 import { HeroService } from '../shared/hero.service';
 
+import { Title } from '@angular/platform-browser';
+
 @Component({
   selector: 'my-hero-detail',
   template: `
@@ -30,7 +32,9 @@ export class HeroDetailComponent implements OnInit {
 
   constructor(
     private heroService: HeroService,
-    private route: ActivatedRoute) {
+    private route: ActivatedRoute,
+    private title: Title) {
+      title.setTitle('hero-detail');
   }
 
   ngOnInit() {
