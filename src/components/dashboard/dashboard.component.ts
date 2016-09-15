@@ -22,7 +22,7 @@ import { HeroService } from '../shared/hero.service';
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
 
-  constructor(
+  constructor (
     private router: Router,
     private heroService: HeroService) {
   }
