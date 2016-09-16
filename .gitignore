@@ -19,3 +19,4 @@ _temp
 !typings/typings.d.ts
 !server/**/*.js
 !webpack.config.js
+!bs-config.js
