@@ -1,5 +1,5 @@
-'use strict';
-let path = require('path');
+/// <reference path="./node_modules/@types/node/index.d.ts" />
+const path = require('path');
 
 module.exports = {
   entry: {
