@@ -1,6 +1,7 @@
+/// <reference path="./node_modules/@types/node/index.d.ts" />
 const proxy = require('http-proxy-middleware');
 
-var apiProxy = proxy('/app', {
+const apiProxy = proxy('/app', {
     target: 'http://localhost:8001',
     changeOrigin: true   // for vhosted sites
 });
