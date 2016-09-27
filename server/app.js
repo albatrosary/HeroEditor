@@ -1,10 +1,10 @@
 'use strict';
 
-let express = require('express');
-let bodyParser = require('body-parser');
-let app = express();
-let server = require('http').createServer(app);
-let port =  process.env.PORT || 8001;
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+const server = require('http').createServer(app);
+const port =  process.env.PORT || 8001;
 
 app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({extended: true, limit: '50mb'}));

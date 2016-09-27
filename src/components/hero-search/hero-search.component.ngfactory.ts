@@ -190,7 +190,7 @@ class _View_HeroSearchComponent0 extends import4.DebugAppView<import2.HeroSearch
   }
 }
 export function viewFactory_HeroSearchComponent0(viewUtils:import6.ViewUtils,parentInjector:import7.Injector,declarationEl:import5.AppElement):import4.AppView<import2.HeroSearchComponent> {
-  if ((renderType_HeroSearchComponent === (null as any))) { (renderType_HeroSearchComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/HeroEditor/src/components/hero-search/hero-search.component.ts class HeroSearchComponent - inline template',0,import12.ViewEncapsulation.Emulated,styles_HeroSearchComponent,{})); }
+  if ((renderType_HeroSearchComponent === (null as any))) { (renderType_HeroSearchComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/accounts-book/src/components/hero-search/hero-search.component.ts class HeroSearchComponent - inline template',0,import12.ViewEncapsulation.Emulated,styles_HeroSearchComponent,{})); }
   return new _View_HeroSearchComponent0(viewUtils,parentInjector,declarationEl);
 }
 const nodeDebugInfos_HeroSearchComponent1:import0.StaticNodeDebugInfo[] = [

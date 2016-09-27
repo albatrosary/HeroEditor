@@ -118,7 +118,7 @@ class _View_HeroDetailComponent0 extends import3.DebugAppView<import1.HeroDetail
   }
 }
 export function viewFactory_HeroDetailComponent0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import4.AppElement):import3.AppView<import1.HeroDetailComponent> {
-  if ((renderType_HeroDetailComponent === (null as any))) { (renderType_HeroDetailComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/HeroEditor/src/components/hero-detail/hero-detail.component.ts class HeroDetailComponent - inline template',0,import12.ViewEncapsulation.Emulated,styles_HeroDetailComponent,{})); }
+  if ((renderType_HeroDetailComponent === (null as any))) { (renderType_HeroDetailComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/accounts-book/src/components/hero-detail/hero-detail.component.ts class HeroDetailComponent - inline template',0,import12.ViewEncapsulation.Emulated,styles_HeroDetailComponent,{})); }
   return new _View_HeroDetailComponent0(viewUtils,parentInjector,declarationEl);
 }
 const nodeDebugInfos_HeroDetailComponent1:import0.StaticNodeDebugInfo[] = [

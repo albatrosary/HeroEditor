@@ -252,7 +252,7 @@ class _View_HeroesComponent0 extends import3.DebugAppView<import1.HeroesComponen
   }
 }
 export function viewFactory_HeroesComponent0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import4.AppElement):import3.AppView<import1.HeroesComponent> {
-  if ((renderType_HeroesComponent === (null as any))) { (renderType_HeroesComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/HeroEditor/src/components/heroes/heroes.component.html',0,import12.ViewEncapsulation.Emulated,styles_HeroesComponent,{})); }
+  if ((renderType_HeroesComponent === (null as any))) { (renderType_HeroesComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/accounts-book/src/components/heroes/heroes.component.html',0,import12.ViewEncapsulation.Emulated,styles_HeroesComponent,{})); }
   return new _View_HeroesComponent0(viewUtils,parentInjector,declarationEl);
 }
 const nodeDebugInfos_HeroesComponent1:import0.StaticNodeDebugInfo[] = [

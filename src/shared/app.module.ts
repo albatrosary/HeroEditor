@@ -5,7 +5,6 @@ import { FormsModule }    from '@angular/forms';
 // Imports for loading & configuring the in-memory web api
 import { Http, HttpModule, XHRBackend , RequestOptions} from '@angular/http';
 
-import { InMemoryBackendService, SEED_DATA } from 'angular2-in-memory-web-api';
 import { InMemoryDataService }               from '../components/shared/in-memory-data.service';
 
 import { AppComponent }   from '../components/app.component';

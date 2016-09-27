@@ -173,7 +173,7 @@ class _View_DashboardComponent0 extends import3.DebugAppView<import1.DashboardCo
   }
 }
 export function viewFactory_DashboardComponent0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import4.AppElement):import3.AppView<import1.DashboardComponent> {
-  if ((renderType_DashboardComponent === (null as any))) { (renderType_DashboardComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/HeroEditor/src/components/dashboard/dashboard.component.ts class DashboardComponent - inline template',0,import12.ViewEncapsulation.Emulated,styles_DashboardComponent,{})); }
+  if ((renderType_DashboardComponent === (null as any))) { (renderType_DashboardComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/accounts-book/src/components/dashboard/dashboard.component.ts class DashboardComponent - inline template',0,import12.ViewEncapsulation.Emulated,styles_DashboardComponent,{})); }
   return new _View_DashboardComponent0(viewUtils,parentInjector,declarationEl);
 }
 const nodeDebugInfos_DashboardComponent1:import0.StaticNodeDebugInfo[] = [

@@ -65,7 +65,6 @@ import * as import57 from '@angular/http/src/http';
 import * as import58 from '@angular/core/src/linker/ng_module_factory_loader';
 import * as import59 from '@angular/router/src/router_config_loader';
 import * as import60 from '@angular/router/src/router_state';
-import * as import61 from '@angular/core/src/i18n/tokens';
 class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
   _CommonModule_0:import2.CommonModule;
   _ApplicationModule_1:import3.ApplicationModule;
@@ -118,7 +117,6 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
   __ActivatedRoute_48:any;
   __APP_BOOTSTRAP_LISTENER_49:any[];
   __HeroService_50:import30.HeroService;
-  __TRANSLATIONS_FORMAT_51:any;
   constructor(parent:import31.Injector) {
     super(parent,[
       import32.DashboardComponentNgFactory,
@@ -129,7 +127,7 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
     ,[import35.AppComponentNgFactory]);
   }
   get _LOCALE_ID_9():any {
-    if ((this.__LOCALE_ID_9 == (null as any))) { (this.__LOCALE_ID_9 = (null as any)); }
+    if ((this.__LOCALE_ID_9 == (null as any))) { (this.__LOCALE_ID_9 = 'en-US'); }
     return this.__LOCALE_ID_9;
   }
   get _NgLocalization_10():import9.NgLocaleLocalization {
@@ -308,10 +306,6 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
     if ((this.__HeroService_50 == (null as any))) { (this.__HeroService_50 = new import30.HeroService(this._Http_39)); }
     return this.__HeroService_50;
   }
-  get _TRANSLATIONS_FORMAT_51():any {
-    if ((this.__TRANSLATIONS_FORMAT_51 == (null as any))) { (this.__TRANSLATIONS_FORMAT_51 = (null as any)); }
-    return this.__TRANSLATIONS_FORMAT_51;
-  }
   createInternal():import1.AppModule {
     this._CommonModule_0 = new import2.CommonModule();
     this._ApplicationModule_1 = new import3.ApplicationModule();
@@ -380,7 +374,6 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
     if ((token === import60.ActivatedRoute)) { return this._ActivatedRoute_48; }
     if ((token === import36.APP_BOOTSTRAP_LISTENER)) { return this._APP_BOOTSTRAP_LISTENER_49; }
     if ((token === import30.HeroService)) { return this._HeroService_50; }
-    if ((token === import61.TRANSLATIONS_FORMAT)) { return this._TRANSLATIONS_FORMAT_51; }
     return notFoundResult;
   }
   destroyInternal():void {
