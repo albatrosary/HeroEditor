@@ -40,9 +40,9 @@ class _View_DashboardComponent_Host0 extends import3.DebugAppView<any> {
     this._appEl_0 = new import4.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_DashboardComponent0(this.viewUtils,this.injector(0),this._appEl_0);
     this._DashboardComponent_0_4 = new import1.DashboardComponent(this.parentInjector.get(import9.Router),this.parentInjector.get(import10.HeroService),this.parentInjector.get(import11.Title));
-    this._appEl_0.initComponent(this._DashboardComponent_0_4,[],compView_0);
+    this._appEl_0.initComponent(this._DashboardComponent_0_4,([] as any[]),compView_0);
     compView_0.create(this._DashboardComponent_0_4,this.projectableNodes,(null as any));
-    this.init([].concat([this._el_0]),[this._el_0],[],[]);
+    this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -56,31 +56,31 @@ class _View_DashboardComponent_Host0 extends import3.DebugAppView<any> {
   }
 }
 function viewFactory_DashboardComponent_Host0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import4.AppElement):import3.AppView<any> {
-  if ((renderType_DashboardComponent_Host === (null as any))) { (renderType_DashboardComponent_Host = viewUtils.createRenderComponentType('',0,import12.ViewEncapsulation.None,[],{})); }
+  if ((renderType_DashboardComponent_Host === (null as any))) { (renderType_DashboardComponent_Host = viewUtils.createRenderComponentType('',0,import12.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_DashboardComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const DashboardComponentNgFactory:import13.ComponentFactory<import1.DashboardComponent> = new import13.ComponentFactory<import1.DashboardComponent>('my-dashboard',viewFactory_DashboardComponent_Host0,import1.DashboardComponent);
 const styles_DashboardComponent:any[] = [import14.styles];
 const nodeDebugInfos_DashboardComponent0:import0.StaticNodeDebugInfo[] = [
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import0.StaticNodeDebugInfo([
     import15.TemplateRef,
     import16.NgFor
   ]
   ,(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import0.StaticNodeDebugInfo([
     import17.HeroSearchService,
     import18.HeroSearchComponent
   ]
   ,import18.HeroSearchComponent,{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{})
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
 var renderType_DashboardComponent:import2.RenderComponentType = (null as any);
@@ -126,11 +126,11 @@ class _View_DashboardComponent0 extends import3.DebugAppView<import1.DashboardCo
     var compView_9:any = import20.viewFactory_HeroSearchComponent0(this.viewUtils,this.injector(9),this._appEl_9);
     this._HeroSearchService_9_4 = new import17.HeroSearchService(this.parentInjector.get(import21.Http));
     this._HeroSearchComponent_9_5 = new import18.HeroSearchComponent(this._HeroSearchService_9_4,this.parentInjector.get(import9.Router));
-    this._appEl_9.initComponent(this._HeroSearchComponent_9_5,[],compView_9);
-    compView_9.create(this._HeroSearchComponent_9_5,[],(null as any));
+    this._appEl_9.initComponent(this._HeroSearchComponent_9_5,([] as any[]),compView_9);
+    compView_9.create(this._HeroSearchComponent_9_5,([] as any[]),(null as any));
     this._text_10 = this.renderer.createText(parentRenderNode,'\n  ',this.debug(10,9,31));
     this._expr_0 = import8.UNINITIALIZED;
-    this.init([],[
+    this.init(([] as any[]),[
       this._text_0,
       this._el_1,
       this._text_2,
@@ -143,7 +143,7 @@ class _View_DashboardComponent0 extends import3.DebugAppView<import1.DashboardCo
       this._el_9,
       this._text_10
     ]
-    ,[],[]);
+    ,([] as any[]),([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -173,18 +173,18 @@ class _View_DashboardComponent0 extends import3.DebugAppView<import1.DashboardCo
   }
 }
 export function viewFactory_DashboardComponent0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import4.AppElement):import3.AppView<import1.DashboardComponent> {
-  if ((renderType_DashboardComponent === (null as any))) { (renderType_DashboardComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/accounts-book/src/components/dashboard/dashboard.component.ts class DashboardComponent - inline template',0,import12.ViewEncapsulation.Emulated,styles_DashboardComponent,{})); }
+  if ((renderType_DashboardComponent === (null as any))) { (renderType_DashboardComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Hands-on/HeroEditor/src/components/dashboard/dashboard.component.ts class DashboardComponent - inline template',0,import12.ViewEncapsulation.Emulated,styles_DashboardComponent,{})); }
   return new _View_DashboardComponent0(viewUtils,parentInjector,declarationEl);
 }
 const nodeDebugInfos_DashboardComponent1:import0.StaticNodeDebugInfo[] = [
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{})
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
 class _View_DashboardComponent1 extends import3.DebugAppView<any> {
@@ -213,7 +213,7 @@ class _View_DashboardComponent1 extends import3.DebugAppView<any> {
     this._text_7 = this.renderer.createText(this._el_0,'\n      ',this.debug(7,6,14));
     var disposable_0:Function = this.renderer.listen(this._el_0,'click',this.eventHandler(this._handle_click_0_0.bind(this)));
     this._expr_1 = import8.UNINITIALIZED;
-    this.init([].concat([this._el_0]),[
+    this.init(([] as any[]).concat([this._el_0]),[
       this._el_0,
       this._text_1,
       this._el_2,
@@ -223,7 +223,7 @@ class _View_DashboardComponent1 extends import3.DebugAppView<any> {
       this._text_6,
       this._text_7
     ]
-    ,[disposable_0],[]);
+    ,[disposable_0],([] as any[]));
     return (null as any);
   }
   detectChangesInternal(throwOnChange:boolean):void {

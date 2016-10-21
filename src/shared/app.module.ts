@@ -36,6 +36,6 @@ import { HeroService }  from '../components/shared/hero.service';
   ],
   bootstrap: [ AppComponent ]
 })
-export class AppModule {
+export class MainModule {
 }
 //seedData: InMemoryDbService, config: InMemoryBackendConfigArgs

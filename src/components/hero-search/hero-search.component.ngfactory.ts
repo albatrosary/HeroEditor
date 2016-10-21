@@ -43,9 +43,9 @@ class _View_HeroSearchComponent_Host0 extends import4.DebugAppView<any> {
     var compView_0:any = viewFactory_HeroSearchComponent0(this.viewUtils,this.injector(0),this._appEl_0);
     this._HeroSearchService_0_4 = new import1.HeroSearchService(this.parentInjector.get(import10.Http));
     this._HeroSearchComponent_0_5 = new import2.HeroSearchComponent(this._HeroSearchService_0_4,this.parentInjector.get(import11.Router));
-    this._appEl_0.initComponent(this._HeroSearchComponent_0_5,[],compView_0);
+    this._appEl_0.initComponent(this._HeroSearchComponent_0_5,([] as any[]),compView_0);
     compView_0.create(this._HeroSearchComponent_0_5,this.projectableNodes,(null as any));
-    this.init([].concat([this._el_0]),[this._el_0],[],[]);
+    this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -60,30 +60,30 @@ class _View_HeroSearchComponent_Host0 extends import4.DebugAppView<any> {
   }
 }
 function viewFactory_HeroSearchComponent_Host0(viewUtils:import6.ViewUtils,parentInjector:import7.Injector,declarationEl:import5.AppElement):import4.AppView<any> {
-  if ((renderType_HeroSearchComponent_Host === (null as any))) { (renderType_HeroSearchComponent_Host = viewUtils.createRenderComponentType('',0,import12.ViewEncapsulation.None,[],{})); }
+  if ((renderType_HeroSearchComponent_Host === (null as any))) { (renderType_HeroSearchComponent_Host = viewUtils.createRenderComponentType('',0,import12.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_HeroSearchComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const HeroSearchComponentNgFactory:import13.ComponentFactory<import2.HeroSearchComponent> = new import13.ComponentFactory<import2.HeroSearchComponent>('hero-search',viewFactory_HeroSearchComponent_Host0,import2.HeroSearchComponent);
 const styles_HeroSearchComponent:any[] = [import14.styles];
 const nodeDebugInfos_HeroSearchComponent0:import0.StaticNodeDebugInfo[] = [
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{searchBox: (null as any)}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{searchBox: (null as any)}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import0.StaticNodeDebugInfo([
     import15.TemplateRef,
     import16.NgFor
   ]
   ,(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{})
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
 var renderType_HeroSearchComponent:import3.RenderComponentType = (null as any);
@@ -135,7 +135,7 @@ class _View_HeroSearchComponent0 extends import4.DebugAppView<import2.HeroSearch
     this.debug((null as any),(null as any),(null as any));
     this._pipe_async_0 = new import17.AsyncPipe(this.ref);
     this._expr_1 = import9.UNINITIALIZED;
-    this.init([],[
+    this.init(([] as any[]),[
       this._text_0,
       this._el_1,
       this._text_2,
@@ -151,7 +151,7 @@ class _View_HeroSearchComponent0 extends import4.DebugAppView<import2.HeroSearch
       this._text_12,
       this._text_13
     ]
-    ,[disposable_0],[]);
+    ,[disposable_0],([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -190,12 +190,12 @@ class _View_HeroSearchComponent0 extends import4.DebugAppView<import2.HeroSearch
   }
 }
 export function viewFactory_HeroSearchComponent0(viewUtils:import6.ViewUtils,parentInjector:import7.Injector,declarationEl:import5.AppElement):import4.AppView<import2.HeroSearchComponent> {
-  if ((renderType_HeroSearchComponent === (null as any))) { (renderType_HeroSearchComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/accounts-book/src/components/hero-search/hero-search.component.ts class HeroSearchComponent - inline template',0,import12.ViewEncapsulation.Emulated,styles_HeroSearchComponent,{})); }
+  if ((renderType_HeroSearchComponent === (null as any))) { (renderType_HeroSearchComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Hands-on/HeroEditor/src/components/hero-search/hero-search.component.ts class HeroSearchComponent - inline template',0,import12.ViewEncapsulation.Emulated,styles_HeroSearchComponent,{})); }
   return new _View_HeroSearchComponent0(viewUtils,parentInjector,declarationEl);
 }
 const nodeDebugInfos_HeroSearchComponent1:import0.StaticNodeDebugInfo[] = [
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{})
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
 class _View_HeroSearchComponent1 extends import4.DebugAppView<any> {
@@ -211,11 +211,11 @@ class _View_HeroSearchComponent1 extends import4.DebugAppView<any> {
     this._text_1 = this.renderer.createText(this._el_0,'',this.debug(1,6,60));
     var disposable_0:Function = this.renderer.listen(this._el_0,'click',this.eventHandler(this._handle_click_0_0.bind(this)));
     this._expr_1 = import9.UNINITIALIZED;
-    this.init([].concat([this._el_0]),[
+    this.init(([] as any[]).concat([this._el_0]),[
       this._el_0,
       this._text_1
     ]
-    ,[disposable_0],[]);
+    ,[disposable_0],([] as any[]));
     return (null as any);
   }
   detectChangesInternal(throwOnChange:boolean):void {

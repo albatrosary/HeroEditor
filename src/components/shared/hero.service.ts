@@ -1,6 +1,7 @@
 import { Injectable }    from '@angular/core';
 import { Headers, Http } from '@angular/http';
 
+import { Observable } from 'rxjs';
 import 'rxjs/add/operator/toPromise';
 
 import { Hero } from './hero';
@@ -31,7 +32,7 @@ export class HeroService {
     return this.post(hero);
   }
 
-  delete(hero: Hero) {
+  delete(hero: Hero): Promise<void> {
     let headers = new Headers();
     headers.append('Content-Type', 'application/json');
 
@@ -40,6 +41,7 @@ export class HeroService {
     return this.http
       .delete(url, {headers: headers})
       .toPromise()
+      .then(() => null)
       .catch(this.handleError);
   }
 

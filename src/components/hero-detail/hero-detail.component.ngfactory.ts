@@ -41,9 +41,9 @@ class _View_HeroDetailComponent_Host0 extends import3.DebugAppView<any> {
     this._appEl_0 = new import4.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_HeroDetailComponent0(this.viewUtils,this.injector(0),this._appEl_0);
     this._HeroDetailComponent_0_4 = new import1.HeroDetailComponent(this.parentInjector.get(import9.HeroService),this.parentInjector.get(import10.ActivatedRoute),this.parentInjector.get(import11.Title));
-    this._appEl_0.initComponent(this._HeroDetailComponent_0_4,[],compView_0);
+    this._appEl_0.initComponent(this._HeroDetailComponent_0_4,([] as any[]),compView_0);
     compView_0.create(this._HeroDetailComponent_0_4,this.projectableNodes,(null as any));
-    this.init([].concat([this._el_0]),[this._el_0],[],[]);
+    this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -57,19 +57,19 @@ class _View_HeroDetailComponent_Host0 extends import3.DebugAppView<any> {
   }
 }
 function viewFactory_HeroDetailComponent_Host0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import4.AppElement):import3.AppView<any> {
-  if ((renderType_HeroDetailComponent_Host === (null as any))) { (renderType_HeroDetailComponent_Host = viewUtils.createRenderComponentType('',0,import12.ViewEncapsulation.None,[],{})); }
+  if ((renderType_HeroDetailComponent_Host === (null as any))) { (renderType_HeroDetailComponent_Host = viewUtils.createRenderComponentType('',0,import12.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_HeroDetailComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const HeroDetailComponentNgFactory:import13.ComponentFactory<import1.HeroDetailComponent> = new import13.ComponentFactory<import1.HeroDetailComponent>('my-hero-detail',viewFactory_HeroDetailComponent_Host0,import1.HeroDetailComponent);
 const styles_HeroDetailComponent:any[] = [import14.styles];
 const nodeDebugInfos_HeroDetailComponent0:import0.StaticNodeDebugInfo[] = [
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import0.StaticNodeDebugInfo([
     import15.TemplateRef,
     import16.NgIf
   ]
   ,(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{})
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
 var renderType_HeroDetailComponent:import2.RenderComponentType = (null as any);
@@ -93,12 +93,12 @@ class _View_HeroDetailComponent0 extends import3.DebugAppView<import1.HeroDetail
     this._NgIf_1_6 = new import16.NgIf(this._appEl_1.vcRef,this._TemplateRef_1_5);
     this._text_2 = this.renderer.createText(parentRenderNode,'\n  ',this.debug(2,11,8));
     this._expr_0 = import8.UNINITIALIZED;
-    this.init([],[
+    this.init(([] as any[]),[
       this._text_0,
       this._anchor_1,
       this._text_2
     ]
-    ,[],[]);
+    ,([] as any[]),([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -118,26 +118,26 @@ class _View_HeroDetailComponent0 extends import3.DebugAppView<import1.HeroDetail
   }
 }
 export function viewFactory_HeroDetailComponent0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import4.AppElement):import3.AppView<import1.HeroDetailComponent> {
-  if ((renderType_HeroDetailComponent === (null as any))) { (renderType_HeroDetailComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/accounts-book/src/components/hero-detail/hero-detail.component.ts class HeroDetailComponent - inline template',0,import12.ViewEncapsulation.Emulated,styles_HeroDetailComponent,{})); }
+  if ((renderType_HeroDetailComponent === (null as any))) { (renderType_HeroDetailComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Hands-on/HeroEditor/src/components/hero-detail/hero-detail.component.ts class HeroDetailComponent - inline template',0,import12.ViewEncapsulation.Emulated,styles_HeroDetailComponent,{})); }
   return new _View_HeroDetailComponent0(viewUtils,parentInjector,declarationEl);
 }
 const nodeDebugInfos_HeroDetailComponent1:import0.StaticNodeDebugInfo[] = [
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import0.StaticNodeDebugInfo([
     import17.DefaultValueAccessor,
     import18.NG_VALUE_ACCESSOR,
@@ -146,14 +146,14 @@ const nodeDebugInfos_HeroDetailComponent1:import0.StaticNodeDebugInfo[] = [
     import21.NgControlStatus
   ]
   ,(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{})
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
 class _View_HeroDetailComponent1 extends import3.DebugAppView<any> {
@@ -246,7 +246,7 @@ class _View_HeroDetailComponent1 extends import3.DebugAppView<any> {
     this._expr_11 = import8.UNINITIALIZED;
     var disposable_3:Function = this.renderer.listen(this._el_19,'click',this.eventHandler(this._handle_click_19_0.bind(this)));
     var disposable_4:Function = this.renderer.listen(this._el_22,'click',this.eventHandler(this._handle_click_22_0.bind(this)));
-    this.init([].concat([this._el_0]),[
+    this.init(([] as any[]).concat([this._el_0]),[
       this._el_0,
       this._text_1,
       this._el_2,

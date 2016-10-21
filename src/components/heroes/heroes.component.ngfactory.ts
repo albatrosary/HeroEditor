@@ -41,9 +41,9 @@ class _View_HeroesComponent_Host0 extends import3.DebugAppView<any> {
     this._appEl_0 = new import4.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_HeroesComponent0(this.viewUtils,this.injector(0),this._appEl_0);
     this._HeroesComponent_0_4 = new import1.HeroesComponent(this.parentInjector.get(import9.Router),this.parentInjector.get(import10.HeroService),this.parentInjector.get(import11.Title));
-    this._appEl_0.initComponent(this._HeroesComponent_0_4,[],compView_0);
+    this._appEl_0.initComponent(this._HeroesComponent_0_4,([] as any[]),compView_0);
     compView_0.create(this._HeroesComponent_0_4,this.projectableNodes,(null as any));
-    this.init([].concat([this._el_0]),[this._el_0],[],[]);
+    this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -57,45 +57,45 @@ class _View_HeroesComponent_Host0 extends import3.DebugAppView<any> {
   }
 }
 function viewFactory_HeroesComponent_Host0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import4.AppElement):import3.AppView<any> {
-  if ((renderType_HeroesComponent_Host === (null as any))) { (renderType_HeroesComponent_Host = viewUtils.createRenderComponentType('',0,import12.ViewEncapsulation.None,[],{})); }
+  if ((renderType_HeroesComponent_Host === (null as any))) { (renderType_HeroesComponent_Host = viewUtils.createRenderComponentType('',0,import12.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_HeroesComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const HeroesComponentNgFactory:import13.ComponentFactory<import1.HeroesComponent> = new import13.ComponentFactory<import1.HeroesComponent>('my-heroes',viewFactory_HeroesComponent_Host0,import1.HeroesComponent);
 const styles_HeroesComponent:any[] = [import14.styles];
 const nodeDebugInfos_HeroesComponent0:import0.StaticNodeDebugInfo[] = [
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import0.StaticNodeDebugInfo([
     import15.TemplateRef,
     import16.NgFor
   ]
   ,(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import0.StaticNodeDebugInfo([
     import15.TemplateRef,
     import17.NgIf
   ]
   ,(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import0.StaticNodeDebugInfo([
     import15.TemplateRef,
     import17.NgIf
   ]
   ,(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import0.StaticNodeDebugInfo([
     import15.TemplateRef,
     import17.NgIf
   ]
   ,(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{})
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
 var renderType_HeroesComponent:import2.RenderComponentType = (null as any);
@@ -176,7 +176,7 @@ class _View_HeroesComponent0 extends import3.DebugAppView<import1.HeroesComponen
     this._expr_4 = import8.UNINITIALIZED;
     this.debug((null as any),(null as any),(null as any));
     this._pipe_uppercase_0 = new import18.UpperCasePipe();
-    this.init([],[
+    this.init(([] as any[]),[
       this._el_0,
       this._text_1,
       this._text_2,
@@ -195,7 +195,7 @@ class _View_HeroesComponent0 extends import3.DebugAppView<import1.HeroesComponen
       this._anchor_15,
       this._text_16
     ]
-    ,[disposable_0],[]);
+    ,[disposable_0],([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -252,21 +252,21 @@ class _View_HeroesComponent0 extends import3.DebugAppView<import1.HeroesComponen
   }
 }
 export function viewFactory_HeroesComponent0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import4.AppElement):import3.AppView<import1.HeroesComponent> {
-  if ((renderType_HeroesComponent === (null as any))) { (renderType_HeroesComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Sandbox/accounts-book/src/components/heroes/heroes.component.html',0,import12.ViewEncapsulation.Emulated,styles_HeroesComponent,{})); }
+  if ((renderType_HeroesComponent === (null as any))) { (renderType_HeroesComponent = viewUtils.createRenderComponentType('/Users/albatrosary/Hands-on/HeroEditor/src/components/heroes/heroes.component.html',0,import12.ViewEncapsulation.Emulated,styles_HeroesComponent,{})); }
   return new _View_HeroesComponent0(viewUtils,parentInjector,declarationEl);
 }
 const nodeDebugInfos_HeroesComponent1:import0.StaticNodeDebugInfo[] = [
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{})
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
 class _View_HeroesComponent1 extends import3.DebugAppView<any> {
@@ -307,7 +307,7 @@ class _View_HeroesComponent1 extends import3.DebugAppView<any> {
     this._expr_2 = import8.UNINITIALIZED;
     this._expr_3 = import8.UNINITIALIZED;
     var disposable_1:Function = this.renderer.listen(this._el_8,'click',this.eventHandler(this._handle_click_8_0.bind(this)));
-    this.init([].concat([this._el_0]),[
+    this.init(([] as any[]).concat([this._el_0]),[
       this._el_0,
       this._text_1,
       this._el_2,
@@ -324,7 +324,7 @@ class _View_HeroesComponent1 extends import3.DebugAppView<any> {
       disposable_0,
       disposable_1
     ]
-    ,[]);
+    ,([] as any[]));
     return (null as any);
   }
   detectChangesInternal(throwOnChange:boolean):void {
@@ -366,8 +366,8 @@ function viewFactory_HeroesComponent1(viewUtils:import5.ViewUtils,parentInjector
   return new _View_HeroesComponent1(viewUtils,parentInjector,declarationEl);
 }
 const nodeDebugInfos_HeroesComponent2:import0.StaticNodeDebugInfo[] = [
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{})
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
 class _View_HeroesComponent2 extends import3.DebugAppView<any> {
@@ -382,11 +382,11 @@ class _View_HeroesComponent2 extends import3.DebugAppView<any> {
     this.renderer.setElementAttribute(this._el_0,'class','error');
     this._text_1 = this.renderer.createText(this._el_0,'',this.debug(1,9,33));
     this._expr_0 = import8.UNINITIALIZED;
-    this.init([].concat([this._el_0]),[
+    this.init(([] as any[]).concat([this._el_0]),[
       this._el_0,
       this._text_1
     ]
-    ,[],[]);
+    ,([] as any[]),([] as any[]));
     return (null as any);
   }
   detectChangesInternal(throwOnChange:boolean):void {
@@ -404,10 +404,10 @@ function viewFactory_HeroesComponent2(viewUtils:import5.ViewUtils,parentInjector
   return new _View_HeroesComponent2(viewUtils,parentInjector,declarationEl);
 }
 const nodeDebugInfos_HeroesComponent3:import0.StaticNodeDebugInfo[] = [
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import0.StaticNodeDebugInfo([import20.HeroDetailComponent],import20.HeroDetailComponent,{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{})
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
 class _View_HeroesComponent3 extends import3.DebugAppView<any> {
@@ -427,12 +427,12 @@ class _View_HeroesComponent3 extends import3.DebugAppView<any> {
     this._appEl_2 = new import4.AppElement(2,0,this,this._el_2);
     var compView_2:any = import21.viewFactory_HeroDetailComponent0(this.viewUtils,this.injector(2),this._appEl_2);
     this._HeroDetailComponent_2_4 = new import20.HeroDetailComponent(this.parentInjector.get(import10.HeroService),this.parentInjector.get(import22.ActivatedRoute),this.parentInjector.get(import11.Title));
-    this._appEl_2.initComponent(this._HeroDetailComponent_2_4,[],compView_2);
-    compView_2.create(this._HeroDetailComponent_2_4,[],(null as any));
+    this._appEl_2.initComponent(this._HeroDetailComponent_2_4,([] as any[]),compView_2);
+    compView_2.create(this._HeroDetailComponent_2_4,([] as any[]),(null as any));
     this._text_3 = this.renderer.createText(this._el_0,'\n',this.debug(3,12,59));
     var disposable_0:Function = this.renderer.listen(this._el_2,'close',this.eventHandler(this._handle_close_2_0.bind(this)));
     const subscription_0:any = this._HeroDetailComponent_2_4.close.subscribe(this.eventHandler(this._handle_close_2_0.bind(this)));
-    this.init([].concat([this._el_0]),[
+    this.init(([] as any[]).concat([this._el_0]),[
       this._el_0,
       this._text_1,
       this._el_2,
@@ -461,14 +461,14 @@ function viewFactory_HeroesComponent3(viewUtils:import5.ViewUtils,parentInjector
   return new _View_HeroesComponent3(viewUtils,parentInjector,declarationEl);
 }
 const nodeDebugInfos_HeroesComponent4:import0.StaticNodeDebugInfo[] = [
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{}),
-  new import0.StaticNodeDebugInfo([],(null as any),{})
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import0.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
 class _View_HeroesComponent4 extends import3.DebugAppView<any> {
@@ -497,7 +497,7 @@ class _View_HeroesComponent4 extends import3.DebugAppView<any> {
     this._pipe_uppercase_0_0 = import5.pureProxy1((<_View_HeroesComponent0>this.parent)._pipe_uppercase_0.transform.bind((<_View_HeroesComponent0>this.parent)._pipe_uppercase_0));
     this._expr_0 = import8.UNINITIALIZED;
     var disposable_0:Function = this.renderer.listen(this._el_5,'click',this.eventHandler(this._handle_click_5_0.bind(this)));
-    this.init([].concat([this._el_0]),[
+    this.init(([] as any[]).concat([this._el_0]),[
       this._el_0,
       this._text_1,
       this._el_2,
@@ -507,7 +507,7 @@ class _View_HeroesComponent4 extends import3.DebugAppView<any> {
       this._text_6,
       this._text_7
     ]
-    ,[disposable_0],[]);
+    ,[disposable_0],([] as any[]));
     return (null as any);
   }
   detectChangesInternal(throwOnChange:boolean):void {
