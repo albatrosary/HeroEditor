@@ -1,10 +1,10 @@
-import { Angular2WebpackLitePage } from './app.po';
+import { HeroEditorPage } from './app.po';
 
-describe('angular2-webpack-lite App', function() {
-  let page: Angular2WebpackLitePage;
+describe('hero-editor App', function() {
+  let page: HeroEditorPage;
 
   beforeEach(() => {
-    page = new Angular2WebpackLitePage();
+    page = new HeroEditorPage();
   });
 
   it('should display message saying app works', () => {
