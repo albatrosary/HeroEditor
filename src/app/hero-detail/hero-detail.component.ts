@@ -48,6 +48,7 @@ export class HeroDetailComponent implements OnInit {
       })
       .catch(error => this.error = error); // TODO: Display error message
   }
+  
   goBack(savedHero: Hero = null) {
     this.close.emit(savedHero);
     if (this.navigated) { window.history.back(); }

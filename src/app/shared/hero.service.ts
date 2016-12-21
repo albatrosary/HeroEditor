@@ -49,7 +49,7 @@ export class HeroService {
   private post(hero: Hero): Promise<Hero> {
     let headers = new Headers({
       'Content-Type': 'application/json'});
-
+      console.log(hero);
     return this.http
       .post(this.heroesUrl, JSON.stringify(hero), {headers: headers})
       .toPromise()
